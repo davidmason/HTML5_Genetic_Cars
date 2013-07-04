@@ -61,17 +61,17 @@ var last_drawn_tile = 0;
 var groundPieceWidth = 1.5;
 var groundPieceHeight = 0.15;
 
-var chassisMaxAxis = 1.1;
+var chassisMaxAxis = 3;
 var chassisMinAxis = 0.1;
 
-var wheelMaxRadius = 0.5;
-var wheelMinRadius = 0.2;
-var wheelMaxDensity = 100;
-var wheelMinDensity = 40;
+var wheelMaxRadius = 0.2;
+var wheelMinRadius = 0.01;
+var wheelMaxDensity = 500;
+var wheelMinDensity = 10;
 var wheelDensityRange = wheelMaxDensity + wheelMinDensity;
 
 var velocityIndex = 0;
-var deathSpeed = 0.1;
+var deathSpeed = 0.01;
 var max_car_health = box2dfps * 10;
 var car_health = max_car_health;
 
